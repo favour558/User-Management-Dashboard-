@@ -13,7 +13,11 @@
     connectDB ();
      
         // MIDDLEWARE
-        app.use (cors ());
+        app.use (cors ({
+          origin: ['http://localhost: 5173','https://user-management-dashboard-beta-rosy.vercel.app'
+          ],
+          credentials: true
+        }));
         app.use (express.json());
 
         //  ROUTES
