@@ -14,7 +14,7 @@
      
         // MIDDLEWARE
         app.use (cors ({
-          origin: ['http://localhost: 5173','https://user-management-dashboard-beta-rosy.vercel.app'
+          origin: ['http://localhost:5173','https://user-management-dashboard-beta-rosy.vercel.app'
           ],
           credentials: true
         }));
